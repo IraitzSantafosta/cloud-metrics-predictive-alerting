@@ -67,13 +67,12 @@ The benchmarking results provide a clear technical justification for using Deep 
 * **Engineering Verdict:** The experiment confirms that 1D-CNNs are superior at recognizing the "shape" of impending failures. For a production environment, this model serves as a robust "safety net" that guarantees incident visibility, though further threshold tuning is recommended to reduce alert noise.
 * **Future Scalability:** This modular pipeline can be easily extended to multi-variate data (RAM, Disk, Network). Adding more dimensions would likely improve the Precision, as the model would have more context to distinguish between normal load and genuine failure signatures.
 
-=======================================================
-METRIC               | RANDOM FOREST   | 1D-CNN
--------------------------------------------------------
-Precision            | 0.0000          | 0.1395
-Recall               | 0.0000          | 1.0000
-F1-Score             | 0.0000          | 0.2449
-=======================================================
+
+| METRIC | RANDOM FOREST | 1D-CNN |
+| :--- | :---: | :---: |
+| Precision | 0.0000 | 0.1395 |
+| Recall | 0.0000 | 1.0000 |
+| F1-Score | 0.0000 | 0.2449 |
 
 
 #### Configuration B: Enhanced Feature Engineering (Optimized)

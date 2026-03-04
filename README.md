@@ -105,21 +105,21 @@ To reproduce the results and the benchmark comparison, follow these steps:
 2. **Set up the environment:**
    ```bash
    python -m venv .venv
+   
 2.1 **Windows**
    ```bash
    .\.venv\Scripts\activate
 2.2 **Linux/macOS**
-   ```bash
    source .venv/bin/activate
    pip install -r requirements.txt
 
 3. **Execute the pipeline:**
 3.1 Generate the synthetic data
-   ```bash
+
    python src/data_gen.py
 3.2 Preprocess into sliding windows
-   ```bash
+
    python src/preprocessing.py
 3.3 Train and compare models
-   ```bash
+
    python src/train.py

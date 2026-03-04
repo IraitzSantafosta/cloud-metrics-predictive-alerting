@@ -106,6 +106,7 @@ To reproduce the results and the benchmark comparison, follow these steps:
    ```bash
    python -m venv .venv
 
+3. **Execute:**
 ```bash
 ##2.1 **Windows**
    ```bash

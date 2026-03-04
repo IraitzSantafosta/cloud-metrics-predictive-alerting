@@ -106,9 +106,17 @@ To reproduce the results and the benchmark comparison, follow these steps:
    ```bash
    python -m venv .venv
 
+2.1 ***Clone the repository:***
+   ```bash
+  .\.venv\Scripts\activate
+
+2.2 ***Set up the environment:***
+   ```bash
+   python -m venv .venv
+
 2.1 **Windows**
    ```bash
-   .\.venv\Scripts\activate
+   
 
 2.2 **Linux/macOS**
    source .venv/bin/activate
@@ -123,4 +131,4 @@ To reproduce the results and the benchmark comparison, follow these steps:
 
 3.3 Train and compare models
    python src/train.py
-   
+

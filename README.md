@@ -106,7 +106,8 @@ To reproduce the results and the benchmark comparison, follow these steps:
    ```bash
    python -m venv .venv
 
-2.1 **Windows**
+```bash
+##2.1 **Windows**
    ```bash
    .\.venv\Scripts\activate
 

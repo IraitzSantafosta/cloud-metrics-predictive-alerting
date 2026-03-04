@@ -103,18 +103,23 @@ To reproduce the results and the benchmark comparison, follow these steps:
    cd cloud-metrics-predictive-alerting
 
 2. **Set up the environment:**
-python -m venv .venv
-# Windows
-.\.venv\Scripts\activate
-# Linux/macOS
-source .venv/bin/activate
-pip install -r requirements.txt
+   ```bash
+   python -m venv .venv
+2.1 **Windows**
+   ```bash
+   .\.venv\Scripts\activate
+2.2 **Linux/macOS**
+   ```bash
+   source .venv/bin/activate
+   pip install -r requirements.txt
 
 3. **Execute the pipeline:**
-
-# 1. Generate the synthetic data
-python src/data_gen.py
-# 2. Preprocess into sliding windows
-python src/preprocessing.py
-# 3. Train and compare models
-python src/train.py
+3.1 Generate the synthetic data
+   ```bash
+   python src/data_gen.py
+3.2 Preprocess into sliding windows
+   ```bash
+   python src/preprocessing.py
+3.3 Train and compare models
+   ```bash
+   python src/train.py
